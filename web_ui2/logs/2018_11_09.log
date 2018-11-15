@@ -1,0 +1,16 @@
+[2018-11-09 10:10:44,318] - remote_connection.py] - DEBUG: POST http://127.0.0.1:51530/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}, "capabilities": {"alwaysMatch": {"browserName": "chrome", "goog:chromeOptions": {"extensions": [], "args": []}, "platformName": "any"}, "firstMatch": [{}]}}
+[2018-11-09 10:10:44,319] - connectionpool.py] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:51530
+[2018-11-09 10:10:46,621] - connectionpool.py] - DEBUG: http://127.0.0.1:51530 "POST /session HTTP/1.1" 200 891
+[2018-11-09 10:10:46,622] - remote_connection.py] - DEBUG: Finished Request
+[2018-11-09 10:10:46,622] - remote_connection.py] - DEBUG: POST http://127.0.0.1:51530/session/69961eca0af3ff6341cca3b35cd5ef1f/url {"sessionId": "69961eca0af3ff6341cca3b35cd5ef1f", "url": "http://slogin.ymatou.com/login"}
+[2018-11-09 10:10:47,849] - connectionpool.py] - DEBUG: http://127.0.0.1:51530 "POST /session/69961eca0af3ff6341cca3b35cd5ef1f/url HTTP/1.1" 200 72
+[2018-11-09 10:10:47,850] - remote_connection.py] - DEBUG: Finished Request
+[2018-11-09 10:17:09,529] - remote_connection.py] - DEBUG: POST http://127.0.0.1:52359/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "any", "browserName": "chrome", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"version": "", "browserName": "chrome", "goog:chromeOptions": {"extensions": [], "args": []}, "platform": "ANY"}}
+[2018-11-09 10:17:09,531] - connectionpool.py] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:52359
+[2018-11-09 10:17:11,880] - connectionpool.py] - DEBUG: http://127.0.0.1:52359 "POST /session HTTP/1.1" 200 892
+[2018-11-09 10:17:11,881] - remote_connection.py] - DEBUG: Finished Request
+[2018-11-09 10:17:11,882] - remote_connection.py] - DEBUG: POST http://127.0.0.1:52359/session/6f0d22ad8b8b7ab933074745214d2be6/url {"url": "http://slogin.ymatou.com/login", "sessionId": "6f0d22ad8b8b7ab933074745214d2be6"}
+[2018-11-09 10:17:12,549] - connectionpool.py] - DEBUG: http://127.0.0.1:52359 "POST /session/6f0d22ad8b8b7ab933074745214d2be6/url HTTP/1.1" 200 72
+[2018-11-09 10:17:12,552] - remote_connection.py] - DEBUG: Finished Request
+[2018-11-09 10:18:01,080] - logging.py] - INFO: 打开浏览器地址http://slogin.ymatou.com/login
+[2018-11-09 10:18:04,285] - logging.py] - INFO: 打开浏览器地址http://slogin.ymatou.com/login

@@ -1,0 +1,29 @@
+# -*- coding: utf8 -*-
+data={
+    "loginName":"wesper",
+    "loginPwd":"123456"
+}
+openurl="http://slogin.ymatou.com/login"
+
+zhucaidan={
+    "zhuye":"/html/body/div[2]/div/div/ul/li[1]/a",
+    "shangpin":"/html/body/div[2]/div/div/ul/li[2]/a",
+    "saohuoxianchang":"/html/body/div[2]/div/div/ul/li[3]/a",
+    "jiaoyi":"/html/body/div[2]/div/div/ul/li[4]/a",
+    "yingxiao":"/html/body/div[2]/div/div/ul/li[5]/a",
+    "shuju":"/html/body/div[2]/div/div/ul/li[6]/a",
+    "zhangwu":"/html/body/div[2]/div/div/ul/li[6]/a",
+    "gongju":"/html/body/div[2]/div/div/ul/li[6]/a",
+    "maishoufuwu":"/html/body/div[2]/div/div/ul/li[6]/a"
+}
+shangpins={
+    "fabu":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[1]/a",
+    "guanli":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[2]/a",
+    "tuijian":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[3]/a",
+    "zhenduan":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[4]/a",
+    "zhenduan":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[5]/a",
+    "piliangxiugai":"/html/body/div[2]/div/div/ul/li[2]/div/ul/li[6]/a",
+}
+dingdan={
+    "dingdan":"/html/body/div[2]/div/div/ul/li[4]/div/ul/li[1]/a"
+}

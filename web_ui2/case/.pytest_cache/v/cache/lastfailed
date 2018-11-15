@@ -1,0 +1,6 @@
+{
+  "testdata.py::Test::test03": true,
+  "testdata.py::Test::testName": true,
+  "testdata.py::Test::test_02": true,
+  "testdata.py::Test::test_openorder": true
+}
